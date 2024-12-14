@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="INNO CREATIVE.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.44809905"
+     inkscape:cx="330.28412"
+     inkscape:cy="730.8652"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#ff7700;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#ffff00;stop-opacity:0.99215686;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="-48.235573"
+       y1="57.498646"
+       x2="-2.1349821"
+       y2="92.773895"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#ffff00;fill-opacity:0.991667;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.999999;stroke-linecap:round;stroke-miterlimit:3.9;stroke-opacity:0;paint-order:stroke markers fill"
+       id="path2"
+       cx="108.73624"
+       cy="150.61664"
+       rx="36.0228"
+       ry="37.732162" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff7600;fill-opacity:0.991667;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.54423;stroke-linecap:square;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path1"
+       inkscape:flatsided="false"
+       sodipodi:sides="5"
+       sodipodi:cx="54.912521"
+       sodipodi:cy="72.626244"
+       sodipodi:r1="63.18996"
+       sodipodi:r2="25.275984"
+       sodipodi:arg1="0"
+       sodipodi:arg2="0.62831853"
+       inkscape:rounded="0.22"
+       inkscape:randomized="0.004"
+       d="m 117.94572,72.728852 c -0.0521,9.97446 -36.605684,6.512528 -42.411588,14.598943 -5.805903,8.086416 8.174751,42.174055 -1.311829,45.249435 C 64.735723,135.65262 56.430327,99.809048 46.967391,96.67659 37.504455,93.544132 9.5361758,117.6366 3.6748991,109.59851 -2.1863777,101.56042 29.738313,82.732098 29.692552,72.773383 29.646791,62.814668 -2.1746021,43.505089 3.6697775,35.437281 9.5141571,27.369473 37.525857,51.536303 46.967221,48.434406 56.408585,45.332509 64.775491,9.5524463 74.226303,12.623721 c 9.450811,3.071275 -4.560033,37.093222 1.308805,45.135446 5.868838,8.042225 42.462742,4.995226 42.410612,14.969685 z"
+       transform="rotate(-89.35672,119.86138,83.201346)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Rockstar;-inkscape-font-specification:Rockstar;letter-spacing:0.79375px;fill:url(#linearGradient4);fill-opacity:1;fill-rule:evenodd;stroke:#fd2c2c;stroke-width:3.51317;stroke-linecap:round;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
+       id="text2"
+       transform="matrix(1.8396883,-1.784773,1.7938864,1.8269809,31.914414,5.2359686)"><textPath
+         xlink:href="#path3"
+         id="textPath3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rockstar;-inkscape-font-specification:Rockstar;stroke-width:3.51317;stroke:#fd2c2c;stroke-opacity:0;fill:url(#linearGradient4);fill-opacity:1"><tspan
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Rockstar;-inkscape-font-specification:Rockstar;letter-spacing:0.79375px;stroke:#fd2c2c;stroke-width:3.51317;stroke-opacity:0;fill:url(#linearGradient4);fill-opacity:1">Inno Creatives</tspan></textPath></text>
+    <circle
+       style="fill:none;fill-opacity:0.991667;fill-rule:evenodd;stroke:#44003c;stroke-width:8.99999;stroke-linecap:round;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:0;paint-order:stroke markers fill"
+       id="path3"
+       cx="15.290274"
+       cy="57.617252"
+       r="35.071373"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

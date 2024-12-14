@@ -1,0 +1,162 @@
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+
+  .grid-3 {
+    gap: 1rem;
+  }
+
+  .skills-right ul li {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  /* Burger */
+  .burger {
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    right: 25px;
+  }
+
+  .toggle-burger .line-1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle-burger .line-2 {
+    opacity: 0;
+  }
+
+  .toggle-burger .line-3 {
+    transform: rotate(45deg) translate(-5px, -6px); 
+  }
+
+  /* Navigation */
+  nav {
+    position: fixed;
+    width: 35%;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    flex-direction: column;
+    background: var(--primaryBackgroundColor);
+    border-left: 1px solid var(--borderColor);
+    z-index: 88;
+    transform: translateX(100%);
+    transition: 0.2s ease-in-out;
+  }
+
+  .nav {
+    padding: 1.5rem 38rem;
+  }
+
+  nav ul {
+    position: relative;
+    top: 10rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+  }
+
+  nav ul li a {
+    text-transform: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    left: -35rem;
+  }
+
+  .nav-active {
+    transform: translateX(0);
+  }
+
+  /* End of Navigation */
+
+  :root {
+    --sectionPadding: 4rem 0;
+  }
+
+  /* Titles */
+  .section-title {
+    font-size: 1.6rem;
+    margin: 0.6rem 0 2.5rem;
+  }
+
+  .pre-title {
+    font-size: 0.8rem;
+  }
+
+  /* Hero Section */
+  #hero {
+    grid-template-columns: 1fr;
+    height: fit-content;
+  }
+
+  .hero-right {
+    order: -1;
+  }
+
+  .hero-right img {
+    margin-top: 6rem;
+    width: 40%;
+  }
+
+  .hero-left {
+    text-align: center;
+    padding-bottom: 2rem;
+    position: relative;
+    top: 2px;
+  }
+
+  .hero-left .pre-title {
+    margin: 0 auto;
+  }
+
+  .hero-name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+/* services */
+#services {
+  background-color:#dacfb7;
+  margin-top: 10rem;
+  height: fit-content;
+  padding: 3rem 0;
+}
+
+  /* Skills Section */
+  .skills-grid {
+    gap: 1rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 2rem 0;
+  }
+}
+
+/* Mobile Size */
+@media screen and (max-width: 640px) {
+  /* Titles */
+  .section-title {
+    font-size: 1.3rem;
+  }
+
+  .pre-title {
+    font-size: 0.7rem;
+  }
+
+  .footer-icons a img {
+    width: 20px;
+  }
+}
