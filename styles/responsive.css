@@ -31,7 +31,7 @@
   }
 
   .toggle-burger .line-3 {
-    transform: rotate(45deg) translate(-5px, -6px); 
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 
   /* Navigation */
@@ -126,13 +126,17 @@
     margin-bottom: 0.5rem;
   }
 
-/* services */
-#services {
-  background-color:#dacfb7;
-  margin-top: 10rem;
-  height: fit-content;
-  padding: 3rem 0;
-}
+  /* services */
+  #services {
+    background-color: #dacfb7;
+    margin-top: 10rem;
+    height: fit-content;
+    padding: 3rem 0;
+  }
+
+  .services-icons img {
+    width: 45%;
+  }
 
   /* Skills Section */
   .skills-grid {
