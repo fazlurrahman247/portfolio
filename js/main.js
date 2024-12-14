@@ -19,24 +19,3 @@ const navSlide = () => {
     }
   };
   
-// Ambil elemen yang dibutuhkan
-const zoomImage = document.querySelector('.zoom-image');
-const modal = document.getElementById('full-screen-modal');
-const closeBtn = document.getElementById('close-btn');
-
-// Fungsi untuk membuka gambar dalam mode layar penuh
-zoomImage.addEventListener('click', function() {
-    modal.style.display = 'flex';
-});
-
-// Fungsi untuk menutup modal
-closeBtn.addEventListener('click', function() {
-    modal.style.display = 'none';
-});
-
-// Tutup modal jika klik di luar gambar
-window.addEventListener('click', function(event) {
-    if (event.target === modal) {
-        modal.style.display = 'none';
-    }
-});
