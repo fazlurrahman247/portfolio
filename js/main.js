@@ -18,4 +18,3 @@ const navSlide = () => {
       form.reset();
     }
   };
-  
