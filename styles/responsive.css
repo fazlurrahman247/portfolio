@@ -160,6 +160,11 @@
     font-size: 0.7rem;
   }
 
+  .portfolios {
+    display: flex;
+    flex-direction: column;
+  }
+
   .footer-icons a img {
     width: 20px;
   }
