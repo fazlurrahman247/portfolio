@@ -150,7 +150,7 @@
 }
 
 /* Mobile Size */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 650px) {
   /* Titles */
   .section-title {
     font-size: 1.3rem;
@@ -162,7 +162,7 @@
 
   .portfolios {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .footer-icons a img {

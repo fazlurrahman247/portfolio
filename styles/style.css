@@ -12,7 +12,7 @@
   --thirdBackgroundColor: #f5f3fe;
 
   --primaryIconColor: #fcdc9b;
-  --primaryIconColorHover: #E4D6B9;
+  --primaryIconColorHover: #e4d6b9;
 
   --sectionPadding: 6rem 0;
 
@@ -78,7 +78,7 @@ a {
 .logo a {
   color: var(--primaryTextColor);
 }
-.logo a span{
+.logo a span {
   color: #e7b44e;
 }
 
@@ -121,13 +121,14 @@ a {
   top: 50%;
 }
 
-/* Layouts */
+/* Layouts*/
 .grid-3 {
   display: grid;
-   grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 3rem;
-}
+} 
+
 
 /* --- Logo and Navigation Menu --- */
 .nav {
@@ -151,10 +152,9 @@ nav ul {
   display: flex;
   position: relative;
   top: 5px;
-  left: 10rem;
+  left: 20rem;
   gap: 3rem;
 }
-
 
 /* Navigation Menu */
 nav ul li {
@@ -165,7 +165,7 @@ nav ul li {
 nav ul li a {
   color: var(--primaryTextColor);
   font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 
@@ -209,7 +209,7 @@ nav ul li a {
 }
 
 .hero-left p {
-font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .hero-name {
@@ -235,7 +235,7 @@ font-size: 1.1rem;
 
 /* Services Section */
 #services {
-  background-color:#dacfb7;
+  background-color: #dacfb7;
   padding: 3rem 0;
 }
 
@@ -280,7 +280,7 @@ font-size: 1.1rem;
   background-color: #d1b680;
   padding: 1.5rem;
   border-radius: 15px;
-}  
+}
 
 /* Portfolios */
 #portfolios {
@@ -293,14 +293,10 @@ font-size: 1.1rem;
   border: 1px solid var(--borderColor);
 }
 
-.portfolio-cover {
-  height: 250px;
-}
-
 .portfolio img {
   width: 100%;
-  height: 100%;
-  object-fit: cover; /* Tetap crop di tampilan awal */
+  /* height: 100%;
+  object-fit: cover; Tetap crop di tampilan awal */
 }
 
 .portfolio-info {
@@ -323,18 +319,15 @@ font-size: 1.1rem;
   font-size: 1.05rem;
 }
 
-.portfolio-title a svg:hover {
-  fill: var(--primaryIconColor);
-}
-
-.portfolio-title a svg {
-  transition: 0.2s ease-in-out;
-}
-
 .portfolio-tags {
   display: flex;
   gap: 1rem;
   margin: 1rem 0;
+}
+
+.portfolio-tags img {
+  width: 25%;
+  height: 25%;
 }
 
 .portfolio-tags div {
@@ -345,7 +338,6 @@ font-size: 1.1rem;
   padding: 0.4rem 1rem;
   color: var(--secondaryTextColor);
 }
-
 
 /* Skills and Education */
 #skills {
@@ -446,8 +438,8 @@ font-size: 1.1rem;
 }
 
 .btn-submit {
-  width: 100%;
-  padding: 0.75rem 1.3rem;
+  width: 20%;
+  padding: 0.75rem 1rem;
   background-color: var(--primaryIconColor);
   color: #fff;
   border: none;
