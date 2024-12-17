@@ -48,12 +48,13 @@
     transform: translateX(100%);
     transition: 0.2s ease-in-out;
   }
-
+  
   .nav {
     padding: 1.5rem 38rem;
   }
-
+  
   nav ul {
+    text-align: start;
     position: relative;
     top: 10rem;
     align-items: center;
@@ -61,7 +62,7 @@
     justify-content: center;
     left: 0;
   }
-
+  
   nav ul li a {
     text-transform: none;
   }
