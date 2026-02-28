@@ -79,16 +79,32 @@ const portfolioData = [
   },
 ];
 
+// Get category icon
+function getCategoryIcon(category) {
+  const icons = {
+    "Web Developer": "globe",
+    "UI/UX Design": "customize-computer",
+    "Graphic Design": "palette",
+  };
+  return icons[category] || "globe";
+}
+
 // Function to render portfolios
-function renderPortfolios() {
+function renderPortfolios(filter = "all") {
   const container = document.getElementById("portfolio-grid");
 
   if (!container) return;
 
-  container.innerHTML = portfolioData
+  // Filter portfolios
+  const filteredData =
+    filter === "all"
+      ? portfolioData
+      : portfolioData.filter((p) => p.category === filter);
+
+  container.innerHTML = filteredData
     .map(
       (portfolio, index) => `
-    <div class="portfolio" data-aos="fade-up" data-aos-delay="${(index % 3) * 100}">
+    <div class="portfolio" data-category="${portfolio.category}" data-aos="fade-up" data-aos-delay="${(index % 3) * 100}">
       <div class="portfolio-cover">
         <img src="${portfolio.image}" alt="${portfolio.title}" />
       </div>
@@ -101,7 +117,7 @@ function renderPortfolios() {
         </div>
         <div class="portfolio-tags">
           <div>
-            <img src="Icon/${portfolio.category === "Web Developer" ? "globe" : portfolio.category === "UI/UX Design" ? "customize-computer" : "palette"}.png" alt="" />
+            <img src="Icon/${getCategoryIcon(portfolio.category)}.png" alt="" />
             ${portfolio.category}
           </div>
           <div>${portfolio.date}</div>
@@ -111,7 +127,33 @@ function renderPortfolios() {
   `,
     )
     .join("");
+
+  // Re-initialize AOS for new elements
+  if (typeof AOS !== "undefined") {
+    AOS.refresh();
+  }
+}
+
+// Filter button functionality
+function initFilterButtons() {
+  const filterButtons = document.querySelectorAll(".filter-btn");
+
+  filterButtons.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      // Remove active class from all buttons
+      filterButtons.forEach((b) => b.classList.remove("active"));
+      // Add active class to clicked button
+      this.classList.add("active");
+
+      // Filter portfolios
+      const category = this.dataset.category;
+      renderPortfolios(category);
+    });
+  });
 }
 
 // Initialize when DOM is ready
-document.addEventListener("DOMContentLoaded", renderPortfolios);
+document.addEventListener("DOMContentLoaded", function () {
+  renderPortfolios();
+  initFilterButtons();
+});
