@@ -354,7 +354,7 @@
             <img src="Icon/facebook.png" alt="Facebook" />
           </a>
         </div>
-        <p>&copy; 2024-2025 Fazlur Rahman. All rights reserved.</p>
+        <p>&copy; <span id="copyright-year"></span> Fazlur Rahman. All rights reserved.</p>
       </div>
     </footer>
 
@@ -395,6 +395,13 @@
           navbar.style.background = "rgba(15, 15, 26, 0.8)";
         }
       });
+
+      // Dynamic Copyright Year
+      const yearElement = document.getElementById("copyright-year");
+      const currentYear = new Date().getFullYear();
+      const startYear = 2024;
+      yearElement.textContent =
+        currentYear === startYear ? startYear : `${startYear}-${currentYear}`;
     </script>
     <script src="js/portfolio.js"></script>
   </body>
